@@ -1,0 +1,118 @@
+1793327846a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:52:{s:28:"emails.submissionAck.subject";s:43:"Kiitos käsikirjoituksesta - {$contextName}";s:25:"emails.submissionAck.body";s:827:"<p>Hyvä {$recipientName},</p><p>Kiitos käsikirjoituksen lähettämisestä. Olemme vastaanottaneet käsikirjoituksenne {$submissionTitle}, ja toimituksemme jäsen näkee sen pian. Saatte sähköpostia, kun alustava päätös on tehty, ja saatamme ottaa teihin yhteyttä saadaksemme lisätietoja.</p><p>Voitte seurata käsikirjoituksen etenemistä toimitusprosessissa kirjautumalla verkkosivustollemme:</p><p>Käsikirjoituksen URL: {$authorSubmissionUrl}</p><p>Jos olette kirjautuneet ulos, voitte kirjautua uudelleen käyttäjätunnuksella {$recipientUsername}.</p><p>Jos teillä on kysyttävää, otattehan yhteyttä minuun <a href="{$authorSubmissionUrl}">aloittamalla keskustelun käsikirjoituksenne yhteydessä</a>.</p><p>{$contextName} haluaa kiittää, että valitsitte meidät työnne julkaisuun.</p>{$contextSignature}";s:32:"emails.submissionAck.description";s:107:"Tämä sähköposti lähetetään kirjoittajalle automaattisesti, kun hän lähettää käsikirjoituksensa.";s:24:"emails.reviewAck.subject";s:19:"Kiitos arvioinnista";s:21:"emails.reviewAck.body";s:364:"<p>Hyvä {$recipientName},</p>
+<p>Kiitos käsikirjoitusta {$submissionTitle} koskevan arvioinnin lähettämisestä. Arvostamme panostanne julkaisemamme työn laadun hyväksi.</p>
+<p>On ollut ilo työskennellä kanssasi ja toivomme, että saamme tilaisuuden työskennellä kanssasi uudelleen tulevaisuudessa.</p>
+<p>Ystävällisin terveisin,</p>
+<p>{$signature}</p>";s:39:"emails.decision.notifyReviewers.subject";s:19:"Kiitos arvioinnista";s:36:"emails.decision.notifyReviewers.body";s:1046:"<p>Hyvä {$recipientName},</p>
+<p>Kiitos lähettämästäsi arvioinnista käsikirjoitukselle, "{$submissionTitle}", {$contextName} -lehdessä. Arvostamme, että olemme saaneet hyödyntää aikaasi ja asiantuntemustasi julkaisumme laadun säilyttämiseksi. Olemme lähettäneet kommenttisi kirjoittajille samalla muiden arvioijien kommenttien ja päätoimittajan päätöksen kanssa.</p>
+<p>Olemme antaneet kirjoittajille seuraavat ohjeet saadun palautteen perusteella:</p>
+<p>{$decisionDescription}</p>
+<p>Suosituksesi on käsitelty yhdessä muiden arvioijien suositusten kanssa päätöstä muodostettaessa. Silloin tällöin päätoimittajan päätös eroaa yhden tai useamman arvioijan suosituksesta. Päätoimittaja arvioi monia eri seikkoja eikä tee päätöksiä kevyin perustein. Olemme kiitollisia arvioijiemme asiantuntemuksesta ja suosituksista.</p>
+<p>Olemme työskennelleet mielellämme kanssasi arvioinnissa {$contextName}, toivomme saavamme työskennellä kanssasi myös myöhemmin.</p>
+<p>Ystävällisesti,</p>
+<p>{$signature}</p>";s:42:"emails.decision.notifyOtherAuthors.subject";s:36:"Käsikirjoitustasi koskeva päivitys";s:39:"emails.decision.notifyOtherAuthors.body";s:480:"<p>Seuraava sähköposti on lähetetty käsikirjoituksen lähettäjälle {$submittingAuthorName} julkaisusta {$contextName} koskien käsikirjoitusta "{$submissionTitle}".</p>
+<p>Saat kopion tästä ilmoituksesta, joska sinut on määritelty käsikirjoituksen kirjoittajaksi. Kaikki alla olevat ohjeet on tarkoitettu käsikirjoituksen lähettäneelle kirjoittajalle,{$submittingAuthorName}, eikä sinulta odoteta mitään toimia tässä vaiheessa.</p>
+
+{$messageToSubmittingAuthor}";s:43:"emails.editorDecisionSendToExternal.subject";s:21:"Toimittajan päätös";s:40:"emails.editorDecisionSendToExternal.body";s:272:"Hyvä {$authors},<br />
+<br />
+Olemme tehneet päätöksen julkaisuun {$contextName} lähettämäänne käsikirjoitusta &quot;{$submissionTitle}&quot; koskien.<br />
+<br />
+Päätöksemme on: Lähetetään arvioitavaksi<br />
+<br />
+Käsikirjoituksen URL: {$submissionUrl}";s:45:"emails.editorDecisionSendToProduction.subject";s:21:"Toimittajan päätös";s:42:"emails.editorDecisionSendToProduction.body";s:184:"Hyvä {$authors},<br />
+<br />
+Käsikirjoituksenne &quot;{$submissionTitle},&quot; on nyt toimitettu ja lähetämme sen tuotantoon.<br />
+<br />
+Käsikirjoituksen URL: {$submissionUrl}";s:38:"emails.editorDecisionRevisions.subject";s:21:"Toimittajan päätös";s:35:"emails.editorDecisionRevisions.body";s:209:"Hyvä {$authors},<br />
+<br />
+Olemme tehneet päätöksen julkaisuun {$contextName} lähettämäänne käsikirjoitusta &quot;{$submissionTitle}&quot; koskien.<br />
+<br />
+Päätöksemme on: Vaatii korjauksia";s:37:"emails.editorDecisionResubmit.subject";s:21:"Toimittajan päätös";s:34:"emails.editorDecisionResubmit.body";s:230:"Hyvä {$authors},<br />
+<br />
+Olemme tehneet päätöksen julkaisuun {$contextName} lähettämäänne käsikirjoitusta &quot;{$submissionTitle}&quot; koskien.<br />
+<br />
+Päätöksemme on: Lähetettävä uudelleen arvioitavaksi";s:36:"emails.editorDecisionDecline.subject";s:21:"Toimittajan päätös";s:33:"emails.editorDecisionDecline.body";s:218:"Hyvä {$authors},<br />
+<br />
+Olemme tehneet päätöksen julkaisuun {$contextName} lähettämäänne käsikirjoitusta &quot;{$submissionTitle}&quot; koskien.<br />
+<br />
+Päätöksemme on: Käsikirjoitus on hylätty";s:35:"emails.editorRecommendation.subject";s:20:"Toimittajan suositus";s:32:"emails.editorRecommendation.body";s:136:"{$editors}:<br />
+<br />
+Julkaisun {$contextName} käsikirjoitusta &quot;{$submissionTitle}&quot; koskeva suositus on: {$recommendation}";s:30:"emails.copyeditRequest.subject";s:35:"Teknistä toimittamista pyydetään";s:27:"emails.copyeditRequest.body";s:792:"Hyvä {$recipientName},<br />
+<br />
+Pyytäisin teitä toimittamaan teknisesti käsikirjoituksen &quot;{$submissionTitle}&quot; julkaisulle {$contextName}, seuraavia vaiheita noudattaen:<br />
+1. Klikatkaa alla olevaa käsikirjoituksen URL-osoitetta.<br />
+2. Avatkaa Luonnostiedostot-otsikon alla olevat tiedostot ja toimittakaa ne teknisesti. Voitte samalla lisätä tekniseen toimittamiseen liittyviä keskusteluja tarpeen mukaan.<br />
+3. Tallentakaa teknisesti toimitetut tiedostot ja ladatkaa ne Teknisesti toimitettu -paneeliin.<br />
+4. Ilmoittakaa toimittajalle, että kaikki tiedostot ovat valmiina, ja että tuotantoprosessi voidaan aloittaa.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+Käsikirjoituksen URL: {$submissionUrl}<br />
+Käyttäjätunnus: {$recipientUsername}";s:43:"emails.editorDecisionNewReviewRound.subject";s:63:"Käsikirjoituksesi on lähetetty toiselle arviointikierrokselle";s:40:"emails.editorDecisionNewReviewRound.body";s:415:"<p>Hyvä {$recipientName},</p>
+<p>Tarkistettu käsikirjoituksesi, "{$submissionTitle}", on lähetetty uudelle vertaisarviointikierrokselle.
+Saat meiltä tietoa arvioijien palautteesta ja seuraavista vaiheista.</p>
+<p>Jos sinulla on kysyttävää, ota yhteyttä minuun <a href="{$authorSubmissionUrl}">aloittamalla uusi keskustelu julkaisumme sivustolla</a>.</p>
+<p>Ystävällisin terveisin,</p>
+<p>{$signature}</p>
+";s:42:"emails.editorDecisionRevertDecline.subject";s:57:"Olemme kumonneet päätöksen hylätä käsikirjoituksesi";s:39:"emails.editorDecisionRevertDecline.body";s:645:"<p>Hyvär {$recipientName},</p>
+<p>Päätös käsikirjoituksesi, "{$submissionTitle}", hylkäämisestä on kumottu. 
+Toimitus vie arviointikierroksen loppuun ja ilmoitamme, kun 
+päätös on tehty.</p>
+<p>Silloin tällöin käsikirjoituksen hylkäyspäätös kirjataan vahingossa 
+järjestelmäämme ja se pitää kumota. Pahoittelen tästä mahdollisesti aiheutunutta hämmennystä. </p>
+<p>Otamme yhteyttä, jos tarvitsemme lisätietoja.</p>
+<p>Jos sinulla on kysyttävää, ota yhteyttä minuun <a href="{$authorSubmissionUrl}">aloittamalla uusi keskustelu julkaisumme sivustolla</a>.</p>
+<p>Ystävällisin terveisin,</p>
+<p>{$signature}</p>
+";s:49:"emails.editorDecisionRevertInitialDecline.subject";s:57:"Olemme kumonneet päätöksen hylätä käsikirjoituksesi";s:46:"emails.editorDecisionRevertInitialDecline.body";s:669:"<p>Hyvä {$recipientName},</p>
+<p>Päätös hylätä käskirjoituksesi, "{$submissionTitle}", on kumottu. 
+Toimittaja käy uudelleen läpi käsikirjoituksesi ennen kuin päättää joko hylätä 
+käsikirjoituksen tai lähettää sen arviointiin.</p>
+<p>Silloin tällöin järjestelmäämmee kirjataan vahingossa hylkäyspäätös 
+ja se pitää kumota. Pahoittelen aihettamaamme mahdollista hämmennystä.</p>
+<p>Otamme yhteyttä, jos tarvitsemme apuasi.</p>
+<p>Jos sinulla on jotain kysyttävää, ota yhteyttä minuun  <a href="{$authorSubmissionUrl}">aloittamalla uusi keskustelu julkaisumme sivustolla</a>.</p>
+<p>Ystävällisin terveisin,</p>
+<p>{$signature}</p>
+";s:43:"emails.editorDecisionInitialDecline.subject";s:21:"Toimittajan päätös";s:40:"emails.editorDecisionInitialDecline.body";s:222:"
+			Hyvä {$authors},<br />
+<br />
+Olemme tehneet päätöksen julkaisuun {$contextName} lähettämäänne käsikirjoitusta &quot;{$submissionTitle}&quot; koskien.<br />
+<br />
+Päätöksemme on: Käsikirjoitus on hylätty";s:25:"emails.footer.unsubscribe";s:167:"<br><br>—<br>Jos et enää halua automaattisia sähköposteja <a href="{$contextUrl}">{$contextName}</a> -lehdestä, <a href="{$unsubscribeUrl}">klikkaa tästä</a>.";s:36:"emails.footer.unsubscribe.discussion";s:293:"<br><br>—<br>Vastaa tähän kommenttiin julkaisujärjestelmässämme: <a href="{$submissionUrl}">#{$submissionId} {$authorsShort}</a>. <br>Jos et enää halua automaattisia sähköposteja <a href="{$contextUrl}">{$contextName}</a> -lehdestä, <a href="{$unsubscribeUrl}">klikkaa tästä</a>.";s:35:"emails.footer.unsubscribe.automated";s:230:"<br><br>—<br>Tämä on automaattinen viesti <a href="{$contextUrl}">{$contextName}</a> -lehdestä. Jos et enää halua automaattisia sähköposteja meiltä, klikkaa <a href="{$unsubscribeUrl}">En halua enää sähköposteja</a>.";s:25:"emails.discussion.subject";s:39:"Viesti julkaisua {$contextName} koskien";s:22:"emails.discussion.body";s:16:"Kirjoita viesti.";s:28:"emails.reviewConfirm.subject";s:24:"Arvioinnin hyväksyminen";s:25:"emails.reviewConfirm.body";s:292:"Hyvät toimittajat,<br />
+<br />
+Olen halukas arvioimaan käsikirjoituksen &quot;{$submissionTitle}&quot; julkaisulle {$contextName}. Kiitos, että pyysitte minua tähän tehtävään. Suoritan arvioinnin viimeistään sen määräaikaan {$reviewDueDate} mennessä.<br />
+<br />
+{$senderName}";s:38:"emails.submissionSavedForLater.subject";s:64:"Jatka käsikirjoituksesi lähettämistä {$contextName} -lehteen";s:35:"emails.submissionSavedForLater.body";s:418:"<p>Hei {$recipientName},</p><p>käsikirjoituksesi tiedot on tallennettu järjestelmäämme, mutta ei ole vielä lähetetty toimitusprosessiin. Voit palata lähettämään käsikirjoituksesi milloin tahansa alla olevalla linkillä.</p><p><a href="{$submissionWizardUrl}">{$authorsShort} — {$submissionTitle}</a></p><hr><p>Tämä on automaattinen sähköposti <a href="{$contextUrl}">{$contextName}</a> -lehdestä.</p>";s:36:"emails.submissionNeedsEditor.subject";s:75:"Uudelle käsikirjoitukselle ({$submissionTitle}) täytyy valita toimittaja.";s:33:"emails.submissionNeedsEditor.body";s:417:"<p>Hei {$recipientName},</p><p>Lehteen on tarjottu uusi käsikirjoitus, jolle ei ole vielä valittu toimittajaa.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Abstract</b></p>{$submissionAbstract}<p>Valitse käsikirjoitukselle toimittaja klikkaamalla yllä olevasta linkistä.</p><hr><p>Tämä on automaattinen sähköposti <a href="{$contextUrl}">{$contextName}</a> -lehdestä.</p>";s:37:"emails.submissionAckNotAuthor.subject";s:35:"Käsikirjoituksesi on vastaanotettu";s:34:"emails.submissionAckNotAuthor.body";s:287:"Hei,<br />
+<br />
+{$submitterName} on lähettänyt julkaisuumme {$contextName} käsikirjoituksen &quot;{$submissionTitle}&quot;.<br />
+<br />
+Jos teillä on kysyttävää, otattehan yhteyttä minuun. Kiitos, että valitsitte tämän julkaisun työllenne.<br />
+<br />
+{$contextSignature}";s:35:"emails.orcidCollectAuthorId.subject";s:34:"Käsikirjoituksen ORCID-tunnisteet";s:32:"emails.orcidCollectAuthorId.body";s:823:"Arvoisa {$recipientName},<br/>
+<br/>
+Teidät mainitaan yhtenä kirjoittajana käsikirjoituksessa "{$submissionTitle}", joka on lähetetty julkaisuun {$contextName}.<br/>
+<br/>
+Varmistaaksesi tekijyytesi, ole hyvä ja lisää ORCID-tunnisteesi käsikirjoitukseen vierailemalla alla olevassa linkissä ja seuraamalla ohjeita.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width='16' height='16' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Rekisteröi tai yhdistä ORCID</a><br/>
+<br/>
+<br/>
+<a href="{$orcidAboutUrl}">Lisätietoja ORCID-tunnisteista julkaisussa {$contextName}</a><br/>
+<br/>
+Mikäli teillä on jotain kysymyksiä, olkaa yhteydessä.<br/>
+<br/>
+{$principalContactSignature}<br/>
+";s:39:"emails.orcidCollectAuthorId.description";s:86:"Tätä sähköpostipohjaa käytetään kirjoittajien ORCID-tunnisteiden keräämiseen.";s:46:"emails.orcidRequestAuthorAuthorization.subject";s:22:"ORCID-pääsyn pyyntö";s:43:"emails.orcidRequestAuthorAuthorization.body";s:935:"Dear {$recipientName},<br>
+<br/>
+Teidät mainitaan yhtenä kirjoittajana käsikirjoituksessa "{$submissionTitle}", joka on lähetetty julkaisuun {$contextName}.<br/>
+<br/>
+Varmistaaksesi tekijyytesi, ole hyvä ja lisää ORCID-tunnisteesi käsikirjoitukseen vierailemalla alla olevassa linkissä ja seuraamalla ohjeita. Artikkelin julkaisun jälkeen sitä koskevat tiedot voidaan liittää ORCID-tiliisi, jos olet antanut siihen luvan.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width='16' height='16' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Rekisteröi tai yhdistä ORCID</a><br/>
+<br/>
+<br/>
+<a href="{$orcidAboutUrl}">Lisätietoja ORCID-tunnisteista julkaisussa {$contextName}</a><br/>
+<br/>
+Mikäli teillä on jotain kysymyksiä, olkaa yhteydessä.<br/>
+<br/>
+{$principalContactSignature}<br/>
+";s:50:"emails.orcidRequestAuthorAuthorization.description";s:89:"Tätä sähköpostipohjaa käytetään ORCID-pääsyn pyytämiseen muilta kirjoittajilta.";s:37:"emailTemplate.variable.authorOrcidUrl";s:28:"ORCID OAuth -valtuutuslinkki";s:36:"emailTemplate.variable.orcidAboutUrl";s:47:"URL-osoite ORCID-tunnuksista kertovalle sivulle";}}}
