@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-03 08:43:02
+/* Smarty version 4.5.5, created on 2025-11-03 10:18:28
   from 'app:frontendcomponentsbreadcrumbs.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_690808a65511c9_45961480',
+  'unifunc' => 'content_69081f048df139_61141831',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a10722600ebbc8779bdec4d1016d43fd016d5a0d' => 
     array (
       0 => 'app:frontendcomponentsbreadcrumbs.tpl',
-      1 => 1761796082,
+      1 => 1761796461,
       2 => 'app',
     ),
   ),
@@ -20,28 +20,35 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_690808a65511c9_45961480 (Smarty_Internal_Template $_smarty_tpl) {
+function content_69081f048df139_61141831 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-<nav class="cmp_breadcrumbs" role="navigation" aria-label="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"navigation.breadcrumbLabel"),$_smarty_tpl ) );?>
-">
-	<ol class="breadcrumb">
-		<li>
-			<a href="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0], array( array('page'=>"index",'router'=>\PKP\core\PKPApplication::ROUTE_PAGE),$_smarty_tpl ) );?>
+<nav class="text-slate-500" role="navigation">
+	<ol class="not-prose flex space-x-1 list-none overflow-none">
+		<li class="truncate">
+			<a class="hover:text-slate-700 dark:hover:text-slate-400" href="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0], array( array('page'=>"index",'router'=>\PKP\core\PKPApplication::ROUTE_PAGE),$_smarty_tpl ) );?>
 ">
 				<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"common.homepageNavigationLabel"),$_smarty_tpl ) );?>
 
 			</a>
+			<span class="separator">
+				<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"navigation.breadcrumbSeparator"),$_smarty_tpl ) );?>
+
+			</span>
 		</li>
-		<li class="active">
-			<?php if ($_smarty_tpl->tpl_vars['currentTitleKey']->value) {?>
-				<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>$_smarty_tpl->tpl_vars['currentTitleKey']->value),$_smarty_tpl ) );?>
+		<li class="current text-<?php echo $_smarty_tpl->tpl_vars['activeTheme']->value->getOption('baseColour');?>
+-500 truncate">
+			<span aria-current="page">
+				<?php if ($_smarty_tpl->tpl_vars['currentTitleKey']->value) {?>
+					<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>$_smarty_tpl->tpl_vars['currentTitleKey']->value),$_smarty_tpl ) );?>
 
-			<?php } else { ?>
-				<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['currentTitle']->value ));?>
+				<?php } else { ?>
+					<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['currentTitle']->value ));?>
 
-			<?php }?>
+				<?php }?>
+			</span>
 		</li>
 	</ol>
 </nav>
+
 <?php }
 }
