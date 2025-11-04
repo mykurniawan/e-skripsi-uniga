@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-03 10:20:53
+/* Smarty version 4.5.5, created on 2025-11-04 13:45:26
   from 'app:frontendcomponentsuimaterial_icon_dark.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_69081f950076d1_45007260',
+  'unifunc' => 'content_6909a106360ee3_62100579',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_69081f950076d1_45007260 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6909a106360ee3_62100579 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <svg aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 fill-<?php echo $_smarty_tpl->tpl_vars['activeTheme']->value->getOption('baseColour');?>
 -400">

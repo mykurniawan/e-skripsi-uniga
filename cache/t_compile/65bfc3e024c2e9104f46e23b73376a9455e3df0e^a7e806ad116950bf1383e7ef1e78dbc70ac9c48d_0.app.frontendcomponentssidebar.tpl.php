@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-03 10:20:52
+/* Smarty version 4.5.5, created on 2025-11-04 13:45:26
   from 'app:frontendcomponentssidebar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_69081f94e8fea9_10700920',
+  'unifunc' => 'content_6909a1062dfe40_90673940',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_69081f94e8fea9_10700920 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6909a1062dfe40_90673940 (Smarty_Internal_Template $_smarty_tpl) {
 if (empty($_smarty_tpl->tpl_vars['isFullWidth']->value)) {?>
   <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'default', "sidebarCode", null);?>
   <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['call_hook'][0], array( array('name'=>"Templates::Common::Sidebar"),$_smarty_tpl ) );

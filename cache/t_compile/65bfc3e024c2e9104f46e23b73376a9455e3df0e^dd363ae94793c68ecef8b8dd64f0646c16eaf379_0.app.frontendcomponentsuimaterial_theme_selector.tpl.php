@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-03 10:20:52
+/* Smarty version 4.5.5, created on 2025-11-04 13:45:26
   from 'app:frontendcomponentsuimaterial_theme_selector.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_69081f94f3de57_33547339',
+  'unifunc' => 'content_6909a106356f49_88246994',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/ui/material_icon_system.tpl' => 1,
   ),
 ),false)) {
-function content_69081f94f3de57_33547339 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6909a106356f49_88246994 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div>
   <button class="flex h-8 w-8 items-center justify-center rounded-xl shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-slate-700 dark:ring-inset dark:ring-white/5" aria-label="Theme" id="headlessui-listbox-button-:r1:" type="button" aria-haspopup="listbox" aria-expanded="false" data-headlessui-state="" aria-labelledby="headlessui-listbox-label-:r0: headlessui-listbox-button-:r1:" @click="darkMode = darkMode === 'light' ? 'dark' : darkMode === 'dark' ? 'system' : 'light'">

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-03 10:20:52
+/* Smarty version 4.5.5, created on 2025-11-04 13:45:26
   from 'app:frontendcomponentsnavigationMenu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_69081f94e88d83_41868060',
+  'unifunc' => 'content_6909a1062d8ce3_39162787',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/navigationMenuUser.tpl' => 1,
   ),
 ),false)) {
-function content_69081f94e88d83_41868060 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6909a1062d8ce3_39162787 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['navigationMenu']->value) {?>
 	<?php if ($_smarty_tpl->tpl_vars['id']->value == "navigationPrimary") {?>
 		<?php $_smarty_tpl->_subTemplateRender("app:frontend/components/navigationMenuPrimary.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('id'=>$_smarty_tpl->tpl_vars['id']->value,'ulClass'=>$_smarty_tpl->tpl_vars['ulClass']->value,'liClass'=>$_smarty_tpl->tpl_vars['liClass']->value,'navigationMenu'=>$_smarty_tpl->tpl_vars['navigationMenu']->value), 0, false);
