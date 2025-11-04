@@ -14,6 +14,7 @@
  */
 
 use APP\core\Application;
+use APP\core\HookRegistry;
 use PKP\config\Config;
 use PKP\facades\Locale;
 use PKP\plugins\ThemePlugin;
